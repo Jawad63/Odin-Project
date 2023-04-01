@@ -1,0 +1,25 @@
+html, body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input {
+    border: 1.5px solid black;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem; 
+}
+
+.btn {
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    border: 1.5px solid black;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem; 
+    width: fit-content;
+    transition: .3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white; 
+}
